@@ -1,0 +1,14 @@
+/* ----- Custom properties ----- */
+:root {
+  --clr-primary-500: hsl(4, 100%, 67%);
+
+  --clr-primary-100: hsl(0, 0%, 100%);
+  --clr-primary-500: hsl(231, 7%, 60%);
+  --clr-primary-800: hsl(235, 18%, 26%);
+  --clr-primary-900: hsl(234, 29%, 20%);
+
+  --ff-base: 'Roboto', sans-serif;
+
+  --fw-400: 400;
+  --fw-700: 700;
+}
