@@ -1,6 +1,7 @@
 /* ----- Custom properties ----- */
 :root {
   --clr-error-500: hsl(4, 100%, 67%);
+  --clr-error-550: hsla(4, 100%, 67%, 0.15);
 
   --clr-primary-500: hsl(347, 74%, 64%);
   --clr-primary-600: hsl(14, 99%, 62%);
@@ -264,7 +265,9 @@ footer a:is(:hover, :focus-visible) {
   gap: 0.5rem;
 }
 
-.form__label {
+.form__message {
+  display: flex;
+  justify-content: space-between;
   font-weight: var(--fw-700);
   font-size: 12px;
 }
@@ -317,4 +320,15 @@ footer a:is(:hover, :focus-visible) {
     gap: 2.25rem;
     min-width: 464px;
   }
+}
+
+/* ----- Error ----- */
+.form__error {
+  color: var(--clr-error-500);
+}
+
+.form__input-error {
+  border: 1px solid var(--clr-error-500);
+  color: var(--clr-error-500);
+  background-color: var(--clr-error-550);
 }

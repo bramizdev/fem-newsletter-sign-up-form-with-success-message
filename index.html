@@ -38,7 +38,7 @@
       <h1 class="visually-hidden">
         Newsletter sign-up form with success message
       </h1>
-      <div class="newsletter hidden">
+      <div class="newsletter">
         <div class="newsletter__info">
           <h2 class="info__heading heading">Stay updated!</h2>
           <p class="info__text">
@@ -55,7 +55,10 @@
           </ul>
           <form class="form">
             <div class="form__control">
-              <label class="form__label" for="email">Email address</label>
+              <div class="form__message">
+                <label class="form__label" for="email">Email address</label>
+                <p class="form__error"></p>
+              </div>
               <input
                 class="form__input"
                 type="text"
@@ -83,7 +86,7 @@
           />
         </picture>
       </div>
-      <div class="success">
+      <div class="success hidden">
         <div class="success__info">
           <img
             class="success__icon"
@@ -98,7 +101,7 @@
             open it and click the button inside to confirm your subscription.
           </p>
         </div>
-        <button class="btn">Dismiss message</button>
+        <button class="btn success__btn">Dismiss message</button>
       </div>
     </main>
     <footer>
