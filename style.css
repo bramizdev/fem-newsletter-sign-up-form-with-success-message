@@ -106,7 +106,7 @@ h6 {
 }
 
 .heading {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .btn {
@@ -127,9 +127,9 @@ h6 {
   -moz-box-shadow: 0px 15px 56px -11px rgba(231, 95, 125, 0.75);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .heading {
-    font-size: 56px;
+    font-size: 3.5rem;
   }
 }
 
@@ -156,7 +156,7 @@ footer a:is(:hover, :focus-visible) {
   color: var(--clr-primary-600);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50rem) {
   body {
     display: grid;
     align-items: center;
@@ -178,18 +178,18 @@ footer a:is(:hover, :focus-visible) {
   margin: 0 auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50rem) {
   .main {
     width: fit-content;
-    max-width: 928px;
+    max-width: 58rem;
     margin: 0 auto;
-    padding: 24px;
+    padding: 1.5rem;
     border-radius: 2rem;
     height: max-content;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .main {
     width: max-content;
   }
@@ -204,13 +204,13 @@ footer a:is(:hover, :focus-visible) {
   display: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50rem) {
   .newsletter {
     flex-direction: row;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .newsletter {
     gap: 2rem;
   }
@@ -219,8 +219,8 @@ footer a:is(:hover, :focus-visible) {
 .newsletter__info {
   display: grid;
   gap: 0.75rem;
-  padding: 30px 24px;
-  max-width: 450px;
+  padding: 1.875rem 1.5rem;
+  max-width: 28.125rem;
 }
 
 .info__features {
@@ -237,19 +237,19 @@ footer a:is(:hover, :focus-visible) {
 
 .info__feature::before {
   content: '';
-  height: 24px;
-  width: 24px;
+  height: 1.5rem;
+  width: 1.5rem;
   background-image: url('./assets/images/icon-list.svg');
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .newsletter__info {
     gap: 0.75rem;
-    padding-top: 58px;
-    padding-left: 40px;
+    padding-top: 3.625rem;
+    padding-left: 2.5rem;
     padding-right: 0;
-    padding-bottom: 72px;
+    padding-bottom: 4.5rem;
   }
 }
 
@@ -278,21 +278,21 @@ footer a:is(:hover, :focus-visible) {
   border-radius: 0.5rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .form {
-    max-width: 376px;
+    max-width: 23.5rem;
   }
 }
 
 /* ----- Success ----- */
 .success {
   height: 100%;
-  padding: 36px 25px;
+  padding: 2.25rem 1.5625rem;
   padding-top: 9.25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 426px;
+  max-width: 26.625rem;
 }
 
 .success.hidden {
@@ -313,12 +313,12 @@ footer a:is(:hover, :focus-visible) {
   font-weight: var(--fw-700);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50rem) {
   .success {
-    padding: 25px 42px;
-    padding-bottom: 38px;
+    padding: 1.5625rem 2.625rem;
+    padding-bottom: 2.375rem;
     gap: 2.25rem;
-    min-width: 464px;
+    min-width: 29rem;
   }
 }
 
